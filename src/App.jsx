@@ -218,12 +218,12 @@ function App() {
 
           <div className="car">
 
-            <img
-              src="/assets/car.png"
-              alt="Premium sports car"
-            />
+  <img
+    src={`${import.meta.env.BASE_URL}assets/car.png`}
+    alt="Premium sports car"
+  />
 
-          </div>
+</div>
 
 
           {/* =========================
